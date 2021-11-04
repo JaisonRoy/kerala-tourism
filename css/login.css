@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../image/boat.jpg);
+    background-size: cover;
+}
+
+.logimg{
+    position: absolute;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 4%;
+    background: rgb(15, 24, 110); 
+    border-radius: 10px;
+}
+
+.form{
+    border:1em;
+    border-radius: 30px;
+    background: linear-gradient(to right, #73fc03,rgb(24, 224, 17),white,#ffffff, #e08a09, #e4800e);
+    margin-right: 34%;
+    margin-left: 34%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+}
+
+button{
+    background-color: rgb(0, 247, 255);
+    width: 250px;
+    height: 30px;  
+    border: rgb(6, 234, 241);
+}

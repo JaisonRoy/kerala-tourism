@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.titlelogo{
+    padding-left:200px;
+}
+#heading{
+    margin-top: 130px;
+    margin-left: 38%;
+    margin-right: 35%;
+    margin-bottom: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+ }
+
+/* .carousel-item{
+    height: 700px;
+    object-fit:cover;
+} */

@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(../image/bg2.jpg);
+    background-size: cover;
+}
+.sign{
+    background: linear-gradient(to right, #73fc03,rgb(24, 224, 17),white,#ffffff, #e08a09, #e4800e);
+    margin-right: 34%;
+    margin-left: 34%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-top: 10%;
+    font-weight: bold;
+    border-radius: 30px;
+}
+input:not(#gen1,#gen2){
+    width: 250px;
+    height: 30px;
+}
+button{
+    background-color: rgb(0, 247, 255);
+    width: 250px;
+    height: 30px;  
+    border: rgb(6, 234, 241);
+}
+.signimg{
+    position: absolute;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 4%;
+    background: rgb(15, 24, 110); 
+    border-radius: 10px;
+
+}
+
+
