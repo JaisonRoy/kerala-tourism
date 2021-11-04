@@ -6,3 +6,49 @@
 .titlelogo{
     padding-left:200px;
 }
+
+#photo{
+    margin-top: 7%;
+}
+
+#heading{
+    margin-top: 130px;
+    margin-left: 48%;
+    margin-right: 35%;
+    margin-bottom: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info{
+    background-color: beige;
+}
+.disctitle{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.disc{
+    padding: 30px;
+}
+#para{
+    font-size: 21px;
+}
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.gal{
+    background-color: rgb(6, 235, 243);
+    padding: 30px;
+}
+.galhead{
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy;
+}
+.imghed{
+    font-family: serif;
+}
