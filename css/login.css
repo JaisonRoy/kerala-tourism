@@ -40,3 +40,9 @@ button{
     height: 30px;  
     border: rgb(6, 234, 241);
 }
+#unerror{
+    color: red;
+}
+#passerror{
+    color: red;
+}
