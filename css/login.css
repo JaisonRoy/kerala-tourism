@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
 }
@@ -12,7 +12,7 @@ body{
     position: absolute;
     margin-left: 38%;
     margin-right: 38%;
-    margin-top: 4%;
+    margin-top: 10%;
     background: rgb(15, 24, 110); 
     border-radius: 10px;
 }
@@ -40,9 +40,9 @@ button{
     height: 30px;  
     border: rgb(6, 234, 241);
 }
-#unerror{
+#emailerror{
     color: red;
 }
 #passerror{
     color: red;
-}
+} */
