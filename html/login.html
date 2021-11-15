@@ -16,151 +16,92 @@
 </head>
 
 <body>
-  <div class="container-fluid">
 
-    <div class="rows">
-      <div class="col-md-12">
-        <div class="header">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-lg-4">
-            <div class="container-fluid">
-              <img src="../image/logo.png" alt="">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="../html/index.html">
-                      <h4>Home</h4>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">
-                      <h4>Kerala</h4>
-                    </a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      <h4>Districts</h4>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="../html/tvm.html">Thiruvananthapuram</a></li>
-                      <li><a class="dropdown-item" href="../html/klm.html">Kollam</a></li>
-                      <li><a class="dropdown-item" href="../html/pta.html">Pathanamthitta</a></li>
-                      <li><a class="dropdown-item" href="../html/alp.html">Alappuzha</a></li>
-                      <li><a class="dropdown-item" href="../html/ktm.html">Kottayam</a></li>
-                      <li><a class="dropdown-item" href="../html/idk.html">Idukki</a></li>
-                      <li><a class="dropdown-item" href="../html/ekm.html">Ernakulam</a></li>
-                      <li><a class="dropdown-item" href="../html/tsr.html">Thrissur</a></li>
-                      <li><a class="dropdown-item" href="../html/plk.html">Palakkad</a></li>
-                      <li><a class="dropdown-item" href="../html/mlp.html">Malappuram</a></li>
-                      <li><a class="dropdown-item" href="../html/kzk.html">Kozhikode</a></li>
-                      <li><a class="dropdown-item" href="../html/wnd.html">Wayanad</a></li>
-                      <li><a class="dropdown-item" href="../html/knr.html">Kannur</a></li>
-                      <li><a class="dropdown-item" href="../html/kzg.html">Kasaragod</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark">
-                      <h4>About Us</h4>
-                    </a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <a class="nav-link text-dark" href="../html/signin.html">
-                    <h4>Signin</h4>
-                  </a>
-                  <a class="nav-link active text-dark" aria-current="page" href="../html/login.html">
-                    <h4>Login</h4>
-                  </a>
-                </form>
-              </div>
-            </div>
-          </nav>
 
-        </div>
+  <div class="header">
 
-      </div>
-      <br>
-
-    </div>
-<br>
-<br>
-    <div class="rows">
-
-      <div class="col-md-12">
-        <div class="d-flex justify-content-center">
-
-          <form  action="../html/index.html">
-            <div class="mb-3">
-              <label for="mail"  class="form-label">Email address</label>
-              <input type="email" class="form-control"  id="mail" aria-describedby="emailHelp">
-              <label id="emailerror" for="" ></label>
-            </div>
-
-            <div class="mb-3">
-              <label for="pass" class="form-label">Password</label>
-              <input type="password" class="form-control" id="pass" aria-describedby="emailHelp">
-              <label id="passerror" for=""></label>
-            </div>
-
-            <button type="submit" class="btn btn-primary" onclick=" return formvalidate()">Submit</button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-lg-4 fixed-top">
+      <div class="container-fluid">
+        <img src="../image/logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="../html/index.html">
+                <h4>Home</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">
+                <h4>kerala</h4>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <h4>districts</h4>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../html/tvm.html">Thiruvananthapuram</a></li>
+                <li><a class="dropdown-item" href="../html/klm.html">Kollam</a></li>
+                <li><a class="dropdown-item" href="../html/pta.html">Pathanamthitta</a></li>
+                <li><a class="dropdown-item" href="../html/alp.html">Alappuzha</a></li>
+                <li><a class="dropdown-item" href="../html/ktm.html">Kottayam</a></li>
+                <li><a class="dropdown-item" href="../html/idk.html">Idukki</a></li>
+                <li><a class="dropdown-item" href="../html/ekm.html">Ernakulam</a></li>
+                <li><a class="dropdown-item" href="../html/tsr.html">Thrissur</a></li>
+                <li><a class="dropdown-item" href="../html/plk.html">Palakkad</a></li>
+                <li><a class="dropdown-item" href="../html/mlp.html">Malappuram</a></li>
+                <li><a class="dropdown-item" href="../html/kzk.html">Kozhikode</a></li>
+                <li><a class="dropdown-item" href="../html/wnd.html">Wayanad</a></li>
+                <li><a class="dropdown-item" href="../html/knr.html">Kannur</a></li>
+                <li><a class="dropdown-item" href="../html/kzg.html">Kasaragod</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark">
+                <h4>About Us</h4>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a class="nav-link text-dark" href="../html/signin.html">
+              <h4>Signin</h4>
+            </a>
+            <a class="nav-link active text-dark" aria-current="page" href="../html/login.html">
+              <h4>Login</h4>
+            </a>
           </form>
-
         </div>
-
       </div>
-
-
-    </div>
-
-    <!-- <div class="row">
-      <div class="col-md-6">
-
-        <div class="logimg">
-          <img src="../image/kerala-tourism-title.png" alt="">
-        </div>
-
-      
-        <div class = "card">
-          <div class="form">
-  
-            <form action="../html/index.html">
-              <label for="mail"><b>Email:</b></label><br>
-              <input id="mail" type="text" placeholder="Enter your email"><br>
-              <label id="emailerror" for=""></label><br>
-  
-              <label for="pass"><b>Password :</b></label><br>
-              <input id="pass" type="password" placeholder="Enter your password"><br>
-              <label id="passerror" for=""></label>
-              <br><br>
-              <button onclick=" return formvalidate()"><b>LOGIN</b></button>
-              <br><br><br>
-            </form>
-          </div>
-
-        </div>
-
-
-      </div> -->
+    </nav>
 
   </div>
 
 
-
-
-
-
-
-
-
-
+  <div class="logimg">
+    <img src="../image/kerala-tourism-title.png" alt="">
   </div>
 
+  <!--form-->
+  <div class="form">
 
+    <form action="../html/index.html">
+      <label for="mail"><b>Email:</b></label><br>
+      <input id="mail" type="text" placeholder="Enter your email"><br>
+      <label id="emailerror" for=""></label><br>
+
+      <label for="pass"><b>Password :</b></label><br>
+      <input id="pass" type="password" placeholder="Enter your password"><br>
+      <label id="passerror" for=""></label>
+      <br><br>
+      <button onclick=" return formvalidate()"><b>LOGIN</b></button>
+      <br><br><br>
+    </form>
+  </div>
   <!--end form-->
   <script src="../JS/login.js"> </script>
 </body>
