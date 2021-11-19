@@ -24,20 +24,20 @@ function validate() {
     console.log((fname.value));
     console.log((lname.value));
 
-    if(fname.value.trim() ==""){
-        fname.style.border="red"
-    }
-    else if(lname.value.trim() == ""){
-        lname.style.border="red"
-    }
-    else if(adds.value.trim() == ""){
-        adds.style.border="red"
-    }
-    else{
-        fname.style.border="green"
-        lname.style.border="green"
-        adds.style.border="green"
-    }
+    // if(fname.value.trim() ==""){
+    //     fname.style.border="red"
+    // }
+    // else if(lname.value.trim() == ""){
+    //     lname.style.border="red"
+    // }
+    // else if(adds.value.trim() == ""){
+    //     adds.style.border="red"
+    // }
+    // else{
+    //     fname.style.border="green"
+    //     lname.style.border="green"
+    //     adds.style.border="green"
+    // }
     if(confpass.value ==""){
         confpasserror.innerHTML = "";
     }
